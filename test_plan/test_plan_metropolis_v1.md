@@ -1,10 +1,9 @@
 
 **TEST PLAN METRÓPOLIS**
 
-**Versión:** 1.0
-**Fecha:** Noviembre de 2025
-**Autor:** Andrea Sofía Ríos Olmos
-**Basado en buenas prácticas ISTQB Foundation Level**
+**Versión:** 1.0;
+**Fecha:** Noviembre de 2025;
+**Autor:** Andrea Sofía Ríos Olmos;
 
 
 ## 1. Introducción
@@ -78,8 +77,8 @@ El enfoque se basará en pruebas funcionales:
 
 ### **Web**
 
-Navegadores: Chrome (versión estable), Firefox (versión estable)
-Resoluciones a probar: 1366x768 (laptop), 1920x1080 (desktop)
+* Navegadores: Chrome (versión estable), Firefox (versión estable)
+* Resoluciones a probar: 1366x768 (laptop), 1920x1080 (desktop)
 
 ### **Mobile**
 
