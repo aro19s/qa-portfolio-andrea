@@ -2,7 +2,9 @@
 **TEST PLAN METRÓPOLIS**
 
 **Versión:** 1.0
+
 **Fecha:** Noviembre de 2025
+
 **Autor:** Andrea Sofía Ríos Olmos
 
 
