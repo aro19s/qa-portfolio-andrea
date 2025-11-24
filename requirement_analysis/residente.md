@@ -34,7 +34,7 @@ El rol RESIDENTE corresponde a los usuarios que acceden únicamente desde la apl
 
 ---
 
-# 4.2 Pagos
+# 4.2 Pagos (TCN-RES-PAG)
 
 ## Test Conditions
 
@@ -48,7 +48,7 @@ El rol RESIDENTE corresponde a los usuarios que acceden únicamente desde la apl
 
 ---
 
-# 4.3 PQRSDF
+# 4.3 PQRSDF (TCN-RES-PQ)
 
 ## Test Conditions
 
@@ -61,7 +61,7 @@ El rol RESIDENTE corresponde a los usuarios que acceden únicamente desde la apl
 
 ---
 
-# 4.4 Portería (Visitantes)
+# 4.4 Portería (Visitantes) (TCN-RES-VIS)
 
 ## Test Conditions
 
@@ -73,7 +73,7 @@ El rol RESIDENTE corresponde a los usuarios que acceden únicamente desde la apl
 
 ---
 
-# 4.5 Zonas comunes
+# 4.5 Zonas comunes (TCN-RES-ZC)
 
 ## Test Conditions
 
@@ -87,7 +87,7 @@ El rol RESIDENTE corresponde a los usuarios que acceden únicamente desde la apl
 
 ---
 
-# 4.6 Avisos
+# 4.6 Avisos (TCN-RES-AV)
 
 ## Test Conditions
 
@@ -98,7 +98,7 @@ El rol RESIDENTE corresponde a los usuarios que acceden únicamente desde la apl
 
 ---
 
-# 4.7 Parqueaderos
+# 4.7 Parqueaderos (TCN-RES-PK)
 
 ## Test Conditions
 
@@ -110,7 +110,7 @@ El rol RESIDENTE corresponde a los usuarios que acceden únicamente desde la apl
 
 ---
 
-# 4.8 Cambio de contraseña
+# 4.8 Cambio de contraseña (TCN-RES-CC)
 
 ## Test Conditions
 
@@ -122,7 +122,7 @@ El rol RESIDENTE corresponde a los usuarios que acceden únicamente desde la apl
 
 ---
 
-# 4.9 Historial de notificaciones
+# 4.9 Historial de notificaciones (TCN-RES-NOT)
 
 ## Test Conditions
 
@@ -134,7 +134,7 @@ El rol RESIDENTE corresponde a los usuarios que acceden únicamente desde la apl
 
 ---
 
-# 4.10 Objetos perdidos
+# 4.10 Objetos perdidos (TCN-RES-OBJG - TCN-RES-OBJP)
 
 ## Test Conditions – Módulo General
 
