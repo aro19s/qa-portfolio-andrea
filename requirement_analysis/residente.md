@@ -149,5 +149,3 @@ El rol RESIDENTE corresponde a los usuarios que acceden únicamente desde la apl
 | ---------------- | ---------------------------------------- |
 | TCN-RES-OBJP-001 | Validar visualización de objetos propios |
 | TCN-RES-OBJP-002 | Validar eliminación de objetos propios   |
-
-
