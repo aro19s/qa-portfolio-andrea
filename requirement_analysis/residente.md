@@ -31,7 +31,6 @@ El rol RESIDENTE corresponde a los usuarios que acceden únicamente desde la apl
 | TCN-RES-LOGIN-002 | Validar error al intentar iniciar sesión con contraseña incorrecta |
 | TCN-RES-LOGIN-003 | Validar error al intentar iniciar sesión con correo no registrado  |
 | TCN-RES-LOGIN-004 | Validar que el sistema bloquee campos vacíos                       |
-| TCN-RES-LOGIN-005 | Validar persistencia de sesión según configuración de la app       |
 
 ---
 
@@ -78,13 +77,13 @@ El rol RESIDENTE corresponde a los usuarios que acceden únicamente desde la apl
 
 ## Test Conditions
 
-| ID             | Test Condition                                        |
-| -------------- | ----------------------------------------------------- |
-| TCN-RES-ZC-001 | Validar visualización de zonas comunes disponibles    |
-| TCN-RES-ZC-002 | Validar gestión de reservas (crear)                   |
-| TCN-RES-ZC-003 | Validar aplicación de filtros                         |
-| TCN-RES-ZC-004 | Validar restricción: no reservar zonas sin reserva    |
-| TCN-RES-ZC-005 | Validar que no se pueda reservar en horarios ocupados |
+| ID             | Test Condition                                                     |
+| -------------- | ------------------------------------------------------------------ |
+| TCN-RES-ZC-001 | Validar visualización de zonas comunes disponibles                 |
+| TCN-RES-ZC-002 | Validar creación de reservas                                       |
+| TCN-RES-ZC-003 | Validar aplicación de filtros                                      |
+| TCN-RES-ZC-004 | Validar restricción: no reservar zonas que no necesiten reserva    |
+| TCN-RES-ZC-005 | Validar que no se pueda reservar en horarios ocupados              |
 
 ---
 
