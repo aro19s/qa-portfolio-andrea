@@ -3,7 +3,7 @@
 
 ---
 
-## **Login exitoso con credenciales válidas**
+## **Validar login exitoso con credenciales válidas**
 
 | Campo                 | Detalle |
 |-------                |---------|
@@ -18,7 +18,7 @@
 
 ---
 
-## **Error por contraseña incorrecta**
+## **Validar error por contraseña incorrecta**
 
 | Campo | Detalle |
 |-------|---------|
@@ -33,7 +33,7 @@
 
 ---
 
-## **Error por correo no registrado**
+## **Validar error por correo no registrado**
 
 | Campo | Detalle |
 |-------|---------|
@@ -48,7 +48,7 @@
 
 ---
 
-## **Error por formato de correo inválido**
+## **Validar error por formato de correo inválido**
 
 | Campo | Detalle |
 |-------|---------|
@@ -65,7 +65,7 @@
 
 ## **Validar bloqueo por campos vacíos**
 
-## Información General
+### Información General
 
 | Campo | Detalle |
 |-------|---------|
@@ -76,34 +76,34 @@
 | **Postcondiciones** | El usuario permanece en la pantalla de Login |
 
 
-## Escenario A — Campo correo vacío
+### Escenario A — Campo correo vacío
 
-| Ítem | Detalle |
+| Campo | Detalle |
 |------|---------|
 | **Pasos** | 1. Abrir la app.<br>2. Dejar el campo correo vacío.<br>3. Ingresar contraseña válida.<br>4. Presionar “Iniciar sesión”. |
-| **Datos de prueba** | Correo: —<br>Contraseña: `password` |
-| **Resultado esperado** | Mostrar mensaje: **“Correo requerido”** y no permitir avanzar. |
+| **Datos de prueba** | Correo: -<br>Contraseña: password |
+| **Resultado esperado** | - El sistema no permite el acceso.<br>- Se muestra mensaje: “Por favor, ingresa un correo electrónico”. |
 | **Resultado real** | *(Se llena durante la ejecución)* |
 | **Estatus** | *(PASADO / FALLADO)* |
 
 
-## Escenario B — Campo contraseña vacía
+### Escenario B — Campo contraseña vacía
 
-| Ítem | Detalle |
+| Campo | Detalle |
 |------|---------|
 | **Pasos** | 1. Abrir la app.<br>2. Ingresar correo válido.<br>3. Dejar contraseña vacía.<br>4. Presionar “Iniciar sesión”. |
-| **Datos de prueba** | Correo: `residentemetropolis@gmail.com`<br>Contraseña: — |
-| **Resultado esperado** | Mostrar mensaje: **“Contraseña requerida”** y no permitir avanzar. |
+| **Datos de prueba** | Correo: residentemetropolis@gmail.com<br>Contraseña: - |
+| **Resultado esperado** | - El sistema no permite el acceso.<br>- Se muestra mensaje: “Por favor, ingresa una contraseña”. |
 | **Resultado real** | *(Se llena durante la ejecución)* |
 | **Estatus** | *(PASADO / FALLADO)* |
 
 
-## Escenario C — Ambos campos vacíos
+### Escenario C — Ambos campos vacíos
 
-| Ítem | Detalle |
+| Campo | Detalle |
 |------|---------|
 | **Pasos** | 1. Abrir la app.<br>2. Dejar ambos campos vacíos.<br>3. Presionar “Iniciar sesión”. |
-| **Datos de prueba** | Correo: —<br>Contraseña: — |
-| **Resultado esperado** | Mostrar mensaje de **campos requeridos** y no avanzar. |
+| **Datos de prueba** | Correo: -<br>Contraseña: - |
+| **Resultado esperado** | - El sistema no permite el acceso.<br>- Se muestra mensaje: “Campos requeridos”. |
 | **Resultado real** | *(Se llena durante la ejecución)* |
 | **Estatus** | *(PASADO / FALLADO)* |
