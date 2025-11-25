@@ -53,6 +53,8 @@ A este rol se le permite gestionar estadísticas, zonas comunes, unidad residenc
 
 # 4.3 Zonas Comunes (TCN-ADM-ZC-ADM)
 
+## Test Conditions
+
 ## 4.3.1 Administrar Zonas Comunes
 
 | ID                           | Test Condition                                                          |
@@ -77,6 +79,8 @@ A este rol se le permite gestionar estadísticas, zonas comunes, unidad residenc
 
 # 4.4 Unidad Residencial (TCN-ADM-UR)
 
+## Test Conditions
+
 | ID                      | Test Condition                                         |
 | ----------------------- | ------------------------------------------------------ |
 | TCN-ADM-UR-001          | Validar visualización de unidades residenciales        |
@@ -85,6 +89,8 @@ A este rol se le permite gestionar estadísticas, zonas comunes, unidad residenc
 ---
 
 # 4.5 Empleados (TCN-ADM-EMP)
+
+## Test Conditions
 
 | ID                      | Test Condition                                                     |
 | ----------------------- | ------------------------------------------------------------------ |
@@ -98,6 +104,8 @@ A este rol se le permite gestionar estadísticas, zonas comunes, unidad residenc
 
 # 4.6 Anuncios (TCN-ADM-AN)
 
+## Test Conditions
+
 | ID                      | Test Condition                                    |
 | ----------------------- | ------------------------------------------------- |
 | TCN-ADM-AN-001          | Validar creación de anuncio                       |
@@ -108,6 +116,8 @@ A este rol se le permite gestionar estadísticas, zonas comunes, unidad residenc
 ---
 
 # 4.7 Notificaciones (TCN-ADM-NOT)
+
+## Test Conditions
 
 | ID                      | Test Condition                                                               |
 | ----------------------- | ---------------------------------------------------------------------------- |
@@ -121,6 +131,8 @@ A este rol se le permite gestionar estadísticas, zonas comunes, unidad residenc
 
 # 4.8 Propiedades (TCN-ADM-PROP)
 
+## Test Conditions
+
 | ID                      | Test Condition                                  |
 | ----------------------- | ----------------------------------------------- |
 | TCN-ADM-PROP-001        | Validar creación de propiedad                   |
@@ -131,6 +143,8 @@ A este rol se le permite gestionar estadísticas, zonas comunes, unidad residenc
 ---
 
 # 4.9 PQRSDF (TCN-ADM-PQ)
+
+## Test Conditions
 
 | ID                      | Test Condition                                                              |
 | ----------------------- | --------------------------------------------------------------------------- |
@@ -143,6 +157,8 @@ A este rol se le permite gestionar estadísticas, zonas comunes, unidad residenc
 
 # 4.10 Conceptos de Pago (TCN-ADM-CP)
 
+## Test Conditions
+
 | ID                      | Test Condition                                                         |
 | ----------------------- | ---------------------------------------------------------------------- |
 | TCN-ADM-CP-001          | Validar creación de concepto de pago global                            |
@@ -153,6 +169,8 @@ A este rol se le permite gestionar estadísticas, zonas comunes, unidad residenc
 ---
 
 # 4.11 Parqueaderos (TCN-ADM-PK)
+
+## Test Conditions
 
 | ID                      | Test Condition                                        |
 | ----------------------- | ----------------------------------------------------- |
@@ -165,6 +183,8 @@ A este rol se le permite gestionar estadísticas, zonas comunes, unidad residenc
 
 # 4.12 Residentes (TCN-ADM-RES)
 
+## Test Conditions
+
 | ID                      | Test Condition                                        |
 | ----------------------- | ----------------------------------------------------- |
 | TCN-ADM-RES-001         | Validar creación de residente                         |
@@ -176,6 +196,8 @@ A este rol se le permite gestionar estadísticas, zonas comunes, unidad residenc
 
 # 4.13 Objetos Perdidos (TCN-ADM-OBJ)
 
+## Test Conditions
+
 | ID                      | Test Condition                                            |
 | ----------------------- | --------------------------------------------------------- |
 | TCN-ADM-OBJ-001         | Validar creación de objeto perdido                        |
@@ -186,6 +208,8 @@ A este rol se le permite gestionar estadísticas, zonas comunes, unidad residenc
 ---
 
 # 4.14 Cambiar Contraseña (TCN-ADM-CC)
+
+## Test Conditions
 
 | ID                      | Test Condition                                          |
 | ----------------------- | ------------------------------------------------------- |
