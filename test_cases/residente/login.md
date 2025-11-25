@@ -11,7 +11,7 @@
 | **Test Condition**    | TCN-RES-LOGIN-001 |
 | **Título**            | Validar login exitoso con credenciales válidas |
 | **Precondiciones**    | - El usuario residente debe estar registrado.<br>- Debe existir una contraseña válida. |
-| **Pasos**             | 1. Abrir la app móvil.  2. Navegar a la pantalla de Login.  3. Ingresar correo válido registrado.  4. Ingresar la contraseña correcta.  5. Presionar el botón “Iniciar sesión”. |
+| **Pasos**             | 1. Abrir la app móvil.<br>2. Navegar a la pantalla de Login.<br>3. Ingresar correo válido registrado.<br>4. Ingresar la contraseña correcta. <br>5. Presionar el botón “Iniciar sesión”. |
 | **Datos de prueba**   | correo: usuario@correo.com<br>contraseña: Contraseña123 |
 | **Resultado esperado**| - El sistema permite el acceso.<br>- El usuario es redirigido al Dashboard del residente.<br>- No se muestra ningún mensaje de error. |
 | **Postcondiciones**   | El usuario queda con sesión activa. |
