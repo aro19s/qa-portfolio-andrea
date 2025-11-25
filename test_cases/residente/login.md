@@ -57,12 +57,7 @@
 | **Título** | Login con formato de correo inválido |
 | **Precondiciones** | Ninguna. |
 | **Pasos** | 1. Abrir la app.<br>2. Ingresar correo con formato inválido.<br>3. Ingresar contraseña.<br>4. Presionar “Iniciar sesión”. |
-| **Datos de prueba** | | # | Entrada | Resultado esperado |
-|---|---------|--------------------|
-| 1 | andrea@gmai | Error: "Correo inválido" |
-| 2 | andrea.gmail.com | Error: "Correo inválido" |
-| 3 | andrea@ | Error: "Correo inválido" |
-| 4 | andrea | Error: "Correo inválido" | |
+| **Datos de prueba** | 1. Correo: residente.com Contraseña: password<br>2. Correo: residente@gmail Contraseña: password<br> 3. Correo: residente.gmail.com Contraseña: password<br>|
 | **Resultado esperado** | - El botón “Iniciar sesión” puede estar deshabilitado **o** generar mensaje de “Campos requeridos”.<br>- No se permite avanzar. |
 | **Postcondiciones** | El usuario permanece en pantalla de Login. |
 
