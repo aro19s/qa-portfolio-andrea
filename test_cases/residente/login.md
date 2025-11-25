@@ -63,17 +63,90 @@
 
 ---
 
-## **Validar bloqueo por campos vacíos**
+# **Validar bloqueo por campos vacíos**
 
+## **Información General**
 | Campo | Detalle |
 |-------|---------|
 | **ID** | TC-RES-LOGIN-005 |
 | **Test Condition** | TCN-RES-LOGIN-005 |
 | **Título** | Login con campos vacíos |
-| **Precondiciones** | Ninguna. |
-| **Pasos** | **Escenario A:** Campo correo vacío<br>1. Abrir la app.<br>2. Dejar el campo correo vacío.<br>3. Ingresar contraseña válida.<br>4. Presionar “Iniciar sesión”.<br><br>**Escenario B:** Campo contraseña vacío<br>1. Abrir la app.<br>2. Ingresar correo válido.<br>3. Dejar contraseña vacía.<br>4. Presionar “Iniciar sesión”.<br><br>**Escenario C:** Ambos campos vacíos<br>1. Abrir la app.<br>2. Dejar ambos campos vacíos.<br>3. Presionar “Iniciar sesión”. |
-| **Datos de prueba** | 1. Correo: residentemetropolis@gmail.com<br> Contraseña: -<br><br>2. Correo: -<br>Contraseña: password<br><br>3. Correo: -<br>Contraseña: -<br>|
-| **Resultado esperado** | - Generar mensaje de campos requeridos.<br>- No se permite avanzar. |
-| **Postcondiciones** | El usuario permanece en pantalla de Login. |
+| **Precondiciones** | Ninguna |
+| **Postcondiciones** | El usuario permanece en pantalla de Login |
 
+---
 
+## **Escenario A — Campo correo vacío**
+
+### **Pasos**
+1. Abrir la app.
+2. Dejar el campo correo vacío.
+3. Ingresar contraseña válida.
+4. Presionar “Iniciar sesión”.
+
+### **Datos de prueba**
+| Campo | Valor |
+|-------|--------|
+| **Correo** | — |
+| **Contraseña** | password |
+
+### **Resultado esperado**
+- Mostrar mensaje: **"Correo requerido"**
+- No permitir avanzar.
+
+### **Resultado real**
+*(Se llena durante la ejecución)*
+
+### **Estatus**
+*(PASADO / FALLADO)*
+
+---
+
+## **Escenario B — Campo contraseña vacío**
+
+### **Pasos**
+1. Abrir la app.
+2. Ingresar correo válido.
+3. Dejar el campo contraseña vacío.
+4. Presionar “Iniciar sesión”.
+
+### **Datos de prueba**
+| Campo | Valor |
+|-------|--------|
+| **Correo** | residentemetropolis@gmail.com |
+| **Contraseña** | — |
+
+### **Resultado esperado**
+- Mostrar mensaje: **"Contraseña requerida"**
+- No permitir avanzar.
+
+### **Resultado real**
+*(Se llena durante la ejecución)*
+
+### **Estatus**
+*(PASADO / FALLADO)*
+
+---
+
+## **Escenario C — Ambos campos vacíos**
+
+### **Pasos**
+1. Abrir la app.
+2. Dejar ambos campos vacíos.
+3. Presionar “Iniciar sesión”.
+
+### **Datos de prueba**
+| Campo | Valor |
+|-------|--------|
+| **Correo** | — |
+| **Contraseña** | — |
+
+### **Resultado esperado**
+- Mostrar mensaje de campos requeridos.
+- No permitir avanzar.
+
+### **Resultado real**
+*(Se llena durante la ejecución)*
+
+### **Estatus**
+*(PASADO / FALLADO)*
