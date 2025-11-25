@@ -75,7 +75,6 @@
 | **Precondiciones** | Ninguna |
 | **Postcondiciones** | El usuario permanece en la pantalla de Login |
 
----
 
 ## Escenario A — Campo correo vacío
 
@@ -87,7 +86,6 @@
 | **Resultado real** | *(Se llena durante la ejecución)* |
 | **Estatus** | *(PASADO / FALLADO)* |
 
----
 
 ## Escenario B — Campo contraseña vacía
 
@@ -99,7 +97,6 @@
 | **Resultado real** | *(Se llena durante la ejecución)* |
 | **Estatus** | *(PASADO / FALLADO)* |
 
----
 
 ## Escenario C — Ambos campos vacíos
 
