@@ -63,17 +63,17 @@
 
 ---
 
-## **TC-RES-LOGIN-005 – Validar bloqueo por campos vacíos**
+## **Validar bloqueo por campos vacíos**
 
 | Campo | Detalle |
 |-------|---------|
 | **ID** | TC-RES-LOGIN-005 |
 | **Test Condition** | TCN-RES-LOGIN-005 |
-| **Título** | Validar que el sistema bloquee el login si hay campos vacíos |
+| **Título** | Login con campos vacíos |
 | **Precondiciones** | Ninguna. |
 | **Pasos** | **Escenario A:** Campo correo vacío<br>1. Abrir la app.<br>2. Dejar el campo correo vacío.<br>3. Ingresar contraseña válida.<br>4. Presionar “Iniciar sesión”.<br><br>**Escenario B:** Campo contraseña vacío<br>1. Abrir la app.<br>2. Ingresar correo válido.<br>3. Dejar contraseña vacía.<br>4. Presionar “Iniciar sesión”.<br><br>**Escenario C:** Ambos campos vacíos<br>1. Abrir la app.<br>2. Dejar ambos campos vacíos.<br>3. Presionar “Iniciar sesión”. |
-| **Datos de prueba** | correo: “”<br>contraseña: “” |
-| **Resultado esperado** | - El botón “Iniciar sesión” puede estar deshabilitado **o** generar mensaje de “Campos requeridos”.<br>- No se permite avanzar. |
+| **Datos de prueba** | 1. Correo: residentemetropolis@gmail.com<br> Contraseña: -<br><br>2. Correo: -<br>Contraseña: password<br><br>3. Correo: -<br>Contraseña: -<br>|
+| **Resultado esperado** | - Generar mensaje de campos requeridos.<br>- No se permite avanzar. |
 | **Postcondiciones** | El usuario permanece en pantalla de Login. |
 
 
