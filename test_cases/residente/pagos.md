@@ -32,7 +32,7 @@
 | Campo | Detalle |
 |------|---------|
 | **Pasos** | 1. Abrir la app móvil.<br>2. Ingresar a la app con un residente registrado.<br>3. Navegar al módulo Pagos.<br>4. Seleccionar el botón "pagar".<br>5. Seleccionar el ícono de filtros.<br>6. Ingresar "Administración" en el campo "Título".<br>7. Seleccionar "Aplicar". |
-| **Datos de prueba** | Usuario con 4 conceptos de pago:<br>1. Título: Administración — Descripción: Pago mensual — Valor: 120000<br>2. Título: Parqueadero — Descripción: Cuota mensual — Valor: 80000<br>3. Título: Aseo — Descripción: Servicio de aseo — Valor: 40000 |
+| **Datos de prueba** | Usuario con 4 conceptos de pago:<br>1. Título: Administración — Descripción: Pago mensual — Valor: 120000<br>2. Título: Parqueadero — Descripción: Cuota mensual — Valor: 80000<br>3. Título: Aseo — Descripción: Servicio de aseo — Valor: 40000<br>
 4. Título: Extra mantenimiento — Descripción: Servicio técnico — Valor: 150000 |
 | **Resultado esperado** | - El sistema mostrará únicamente el concepto:<br> Título: Administración — Descripción: Pago mensual — Valor: 120000 |
 
@@ -41,6 +41,6 @@
 | Campo | Detalle |
 |------|---------|
 | **Pasos** | 1. Abrir la app móvil.<br>2. Ingresar a la app con un residente registrado.<br>3. Navegar al módulo Pagos.<br>4. Seleccionar el botón "pagar".<br>5. Seleccionar el ícono de filtros.<br>6. Ingresar "80000" en el campo "Valor".<br>7. Seleccionar "Aplicar". |
-| **Datos de prueba** | Usuario con 4 conceptos de pago:<br>1. Título: Administración — Descripción: Pago mensual — Valor: 120000<br>2. Título: Parqueadero — Descripción: Cuota mensual — Valor: 80000<br>3. Título: Aseo — Descripción: Servicio de aseo — Valor: 40000 |
+| **Datos de prueba** | Usuario con 4 conceptos de pago:<br>1. Título: Administración — Descripción: Pago mensual — Valor: 120000<br>2. Título: Parqueadero — Descripción: Cuota mensual — Valor: 80000<br>3. Título: Aseo — Descripción: Servicio de aseo — Valor: 40000<br>
 4. Título: Extra mantenimiento — Descripción: Servicio técnico — Valor: 150000 |
 | **Resultado esperado** | - El sistema mostrará únicamente el concepto:<br> Título: Parqueadero — Descripción: Cuota mensual — Valor: 80000 |
