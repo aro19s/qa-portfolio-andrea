@@ -42,12 +42,12 @@ Conceptos de pago disponibles para el residente:
 
 ---
 
-> **Flujo base (común para todos los escenarios):**
-> 1. Abrir la app móvil.  
-> 2. Ingresar con un residente registrado.  
-> 3. Navegar al módulo Pagos.  
-> 4. Seleccionar el botón "Pagar".  
-> 5. Seleccionar el ícono de filtros.
+**Flujo base (común para todos los escenarios):**
+1. Abrir la app móvil.  
+2. Ingresar con un residente registrado.  
+3. Navegar al módulo Pagos.  
+4. Seleccionar el botón "Pagar".  
+5. Seleccionar el ícono de filtros.
 
 ---
 
