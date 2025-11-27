@@ -25,12 +25,13 @@ El rol RESIDENTE corresponde a los usuarios que acceden únicamente desde la apl
 
 ## Test Conditions
 
-| ID                | Test Condition                                                     |
-| ----------------- | ------------------------------------------------------------------ |
-| TCN-RES-LOGIN-001 | Validar login exitoso con credenciales válidas                     |
-| TCN-RES-LOGIN-002 | Validar error al intentar iniciar sesión con contraseña incorrecta |
-| TCN-RES-LOGIN-003 | Validar error al intentar iniciar sesión con correo no registrado  |
-| TCN-RES-LOGIN-004 | Validar que el sistema bloquee campos vacíos                       |
+| ID                | Test Condition                                                            |
+| ----------------- | ------------------------------------------------------------------------- |
+| TCN-RES-LOGIN-001 | Validar login exitoso con credenciales válidas                            |
+| TCN-RES-LOGIN-002 | Validar error al intentar iniciar sesión con contraseña incorrecta        |
+| TCN-RES-LOGIN-003 | Validar error al intentar iniciar sesión con correo no registrado         |
+| TCN-RES-LOGIN-004 | Validar error al intentar iniciar sesión con formato de correo inválido   |
+| TCN-RES-LOGIN-005 | Validar que el sistema bloquee campos vacíos                              |
 
 ---
 
@@ -40,11 +41,17 @@ El rol RESIDENTE corresponde a los usuarios que acceden únicamente desde la apl
 
 | ID              | Test Condition                                              |
 | --------------- | ----------------------------------------------------------- |
-| TCN-RES-PAG-001 | Validar visualización de pagos asociados al residente       |
-| TCN-RES-PAG-002 | Validar aplicación correcta de filtros de búsqueda          |
-| TCN-RES-PAG-003 | Validar registro de un nuevo pago                           |
-| TCN-RES-PAG-004 | Validar validación de campos obligatorios al registrar pago |
-| TCN-RES-PAG-005 | Validar que solo se muestren conceptos de pago asignados    |
+| TCN-RES-PAG-001 | Validar visualización de conceptos de pagos asociados al residente       |
+| TCN-RES-PAG-002 | Validar visualización del historial de pagos realizados por el residente       |
+| TCN-RES-PAG-003 | Validar aplicación correcta de filtros de búsqueda          |
+| TCN-RES-PAG-004 | Validar redirección correcta hacia Mercado Pago con los parámetros correctos |
+| TCN-RES-PAG-005 | Validar pago exitoso aprobado por Mercado Pago: registrar pago, mostrar confirmación y actualizar estado |
+| TCN-RES-PAG-006 | Validar pago pendiente: mostrar mensaje adecuado, registrar estado pendiente y no marcar como pagado |
+| TCN-RES-PAG-007 | Validar pago rechazado: mostrar mensaje adecuado, no registrar pago y permitir reintento |
+| TCN-RES-PAG-008 | Validar comportamiento cuando el usuario cancela el pago: retornar a la app sin errores         |
+| TCN-RES-PAG-009 | Validar retorno correcto después del pago (callback/deep link) y redirección al módulo Pagos  |
+| TCN-RES-PAG-010 | Validar manejo de errores cuando Mercado Pago no responde (timeout, error 500, conexión fallida) |
+| TCN-RES-PAG-011 | Validar que no se duplique el pago en caso de doble callback o doble tap                       |
 
 ---
 
