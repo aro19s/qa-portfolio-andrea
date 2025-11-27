@@ -29,7 +29,7 @@
 
 ---
 
-## **Datos de prueba generales**
+### **Datos de prueba generales**
 
 Conceptos de pago disponibles para el residente:
 
@@ -42,7 +42,7 @@ Conceptos de pago disponibles para el residente:
 
 ---
 
-**Flujo base (común para todos los escenarios):**
+***Flujo base (común para todos los escenarios):***
 1. Abrir la app móvil.
 2. Ingresar con un residente registrado.
 3. Navegar al módulo Pagos.
@@ -163,7 +163,7 @@ Conceptos de pago disponibles para el residente:
 | **Precondiciones**    | - El residente tiene al menos un concepto de pago pendiente.<br>- La app está conectada a la pasarela de pagos de Mercado Pago.<br>- Mercado Pago cuenta con un método de pago de prueba configurado para devolver estado Rejected. |
 | **Pasos**             | 1. Abrir la app móvil.<br>2. Ingresar a la app con un residente registrado.<br>3. Navegar al módulo Pagos.<br>4. Seleccionar “Pagar”.<br>5. Seleccionar un concepto de pago pendiente.<br>6. Completar el proceso de pago en Mercado Pago.<br>7. Regresar a la app. |
 | **Datos de prueba**   | Concepto:<br>- Parqueadero — 80.000 |
-| **Resultado esperado**| - El sistema registra el intento con estado **Rechazado** (internamente).<br>- El concepto de pago continúa en estado “Pendiente”.<br>- Se habilita el botón “Borrar pago”.<br>- El usuario puede volver a intentar el pago. |
+| **Resultado esperado**| - El sistema registra el intento con estado Rechazado (internamente).<br>- El concepto de pago continúa en estado “Pendiente”.<br>- Se habilita el botón “Borrar pago”.<br>- El usuario puede volver a intentar el pago. |
 | **Postcondiciones**   | El concepto permanece en estado Pendiente hasta que el usuario lo elimine y realice un nuevo pago. |
 
 ---
@@ -182,3 +182,5 @@ Conceptos de pago disponibles para el residente:
 | **Datos de prueba**   | - Concepto:<br>- Parqueadero — 80.000 |
 | **Resultado esperado**| - La app detecta que Mercado Pago no respondió.<br>- El usuario retorna a la pantalla de pagos sin que la app se bloquee.<br>- Se muestra mensaje de error o estado de pago no completado. |
 | **Postcondiciones**   | - El pago queda en estado pendiente.<br>- Se habilita la opción de borrar el pago. |
+
+---
