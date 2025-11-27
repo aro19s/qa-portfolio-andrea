@@ -27,7 +27,7 @@
 | **Precondiciones** | - El residente tiene varios pagos pendientes registrados con distintos títulos, descripciones y valores. |
 | **Postcondiciones**| Ninguna. |
 
----
+
 
 ### **Datos de prueba generales**
 
@@ -40,7 +40,7 @@ Conceptos de pago disponibles para el residente:
 | Aseo                 | Servicio de aseo   | 40000   |
 | Extra mantenimiento  | Servicio técnico   | 150000  |
 
----
+
 
 ***Flujo base (común para todos los escenarios):***
 1. Abrir la app móvil.
@@ -49,7 +49,7 @@ Conceptos de pago disponibles para el residente:
 4. Seleccionar el botón "Pagar".
 5. Seleccionar el ícono de filtros.
 
----
+
 
 ### **Escenario A — Filtrar por Título con coincidencias**
 
@@ -59,7 +59,7 @@ Conceptos de pago disponibles para el residente:
 | **Datos de prueba** | Se utilizan los datos generales definidos arriba. |
 | **Resultado esperado** | - El sistema muestra únicamente el concepto:<br>Administración / Pago mensual / 120000 |
 
----
+
 
 ### **Escenario B — Filtrar por Valor con coincidencias**
 
@@ -69,7 +69,7 @@ Conceptos de pago disponibles para el residente:
 | **Datos de prueba** | Se utilizan los datos generales definidos arriba. |
 | **Resultado esperado** | - El sistema muestra únicamente el concepto:<br> • Parqueadero / Cuota mensual / 80000 |
 
----
+
 
 ### **Escenario C — Filtrar por Título sin coincidencias**
 
@@ -79,7 +79,7 @@ Conceptos de pago disponibles para el residente:
 | **Datos de prueba** | Se utilizan los datos generales definidos arriba. |
 | **Resultado esperado** | - El sistema muestra el mensaje: “No se encontraron conceptos” |
 
----
+
 
 ### **Escenario D — Filtrar por Valor sin coincidencias**
 
