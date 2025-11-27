@@ -43,10 +43,10 @@ Conceptos de pago disponibles para el residente:
 ---
 
 **Flujo base (común para todos los escenarios):**
-1. Abrir la app móvil.  
-2. Ingresar con un residente registrado.  
-3. Navegar al módulo Pagos.  
-4. Seleccionar el botón "Pagar".  
+1. Abrir la app móvil.
+2. Ingresar con un residente registrado.
+3. Navegar al módulo Pagos.
+4. Seleccionar el botón "Pagar".
 5. Seleccionar el ícono de filtros.
 
 ---
@@ -55,9 +55,9 @@ Conceptos de pago disponibles para el residente:
 
 | Campo | Detalle |
 |-------|---------|
-| **Pasos** | 1. Ejecutar el flujo base.<br>2. Ingresar **"Administración"** en el campo Título.<br>3. Seleccionar **Aplicar**. |
+| **Pasos** | 1. Ejecutar el flujo base.<br>2. Ingresar "Administración" en el campo Título.<br>3. Seleccionar Aplicar. |
 | **Datos de prueba** | Se utilizan los datos generales definidos arriba. |
-| **Resultado esperado** | - El sistema muestra únicamente el concepto:<br> • **Administración / Pago mensual / 120000** |
+| **Resultado esperado** | - El sistema muestra únicamente el concepto:<br>Administración / Pago mensual / 120000 |
 
 ---
 
@@ -65,9 +65,9 @@ Conceptos de pago disponibles para el residente:
 
 | Campo | Detalle |
 |-------|---------|
-| **Pasos** | 1. Ejecutar el flujo base.<br>2. Ingresar **"80000"** en el campo Valor.<br>3. Seleccionar **Aplicar**. |
+| **Pasos** | 1. Ejecutar el flujo base.<br>2. Ingresar "80000" en el campo Valor.<br>3. Seleccionar Aplicar. |
 | **Datos de prueba** | Se utilizan los datos generales definidos arriba. |
-| **Resultado esperado** | - El sistema muestra únicamente el concepto:<br> • **Parqueadero / Cuota mensual / 80000** |
+| **Resultado esperado** | - El sistema muestra únicamente el concepto:<br> • Parqueadero / Cuota mensual / 80000 |
 
 ---
 
@@ -75,9 +75,9 @@ Conceptos de pago disponibles para el residente:
 
 | Campo | Detalle |
 |-------|---------|
-| **Pasos** | 1. Ejecutar el flujo base.<br>2. Ingresar **"Multa"** en el campo Título.<br>3. Seleccionar **Aplicar**. |
+| **Pasos** | 1. Ejecutar el flujo base.<br>2. Ingresar "Multa" en el campo Título.<br>3. Seleccionar Aplicar. |
 | **Datos de prueba** | Se utilizan los datos generales definidos arriba. |
-| **Resultado esperado** | - El sistema muestra el mensaje: **“No se encontraron conceptos”** |
+| **Resultado esperado** | - El sistema muestra el mensaje: “No se encontraron conceptos” |
 
 ---
 
@@ -85,6 +85,21 @@ Conceptos de pago disponibles para el residente:
 
 | Campo | Detalle |
 |-------|---------|
-| **Pasos** | 1. Ejecutar el flujo base.<br>2. Ingresar **"70000"** en el campo Valor.<br>3. Seleccionar **Aplicar**. |
+| **Pasos** | 1. Ejecutar el flujo base.<br>2. Ingresar "70000" en el campo Valor.<br>3. Seleccionar Aplicar. |
 | **Datos de prueba** | Se utilizan los datos generales definidos arriba. |
-| **Resultado esperado** | - El sistema muestra el mensaje: **“No se encontraron conceptos”** |
+| **Resultado esperado** | - El sistema muestra el mensaje: “No se encontraron conceptos” |
+
+---
+
+## **Validar visualización del historial de pagos realizados**
+
+| Campo                 | Detalle |
+|----------------------|---------|
+| **ID**                | TC-RES-PAG-002 |
+| **Test Condition**    | TCN-RES-PAG-002 |
+| **Título**            | Visualización del historial de pagos realizados |
+| **Precondiciones**    | - El residente tiene pagos realizados registrados en el sistema. |
+| **Pasos**             | 1. Abrir la app móvil.<br>2. Ingresar a la app con un residente registrado.<br>3. Navegar al módulo Pagos. |
+| **Datos de prueba**   | Pagos realizados por el residente. |
+| **Resultado esperado**| - El sistema muestra la lista completa de pagos realizados por el residente y la inormación correspondiente. |
+| **Postcondiciones**   | Ninguna. |
