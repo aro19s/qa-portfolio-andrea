@@ -1,5 +1,4 @@
-# 4.1 Login – Test Cases – TCN-RES-LOGIN
-
+# Login – Test Cases – TCN-RES-LOGIN
 
 ---
 
@@ -83,8 +82,6 @@
 | **Pasos** | 1. Abrir la app.<br>2. Dejar el campo correo vacío.<br>3. Ingresar contraseña válida.<br>4. Presionar “Iniciar sesión”. |
 | **Datos de prueba** | Correo: -<br>Contraseña: password |
 | **Resultado esperado** | - El sistema no permite el acceso.<br>- Se muestra mensaje: “Por favor, ingresa un correo electrónico”. |
-| **Resultado real** | *(Se llena durante la ejecución)* |
-| **Estatus** | *(PASADO / FALLADO)* |
 
 
 ### Escenario B — Campo contraseña vacía
@@ -94,8 +91,6 @@
 | **Pasos** | 1. Abrir la app.<br>2. Ingresar correo válido.<br>3. Dejar contraseña vacía.<br>4. Presionar “Iniciar sesión”. |
 | **Datos de prueba** | Correo: residentemetropolis@gmail.com<br>Contraseña: - |
 | **Resultado esperado** | - El sistema no permite el acceso.<br>- Se muestra mensaje: “Por favor, ingresa una contraseña”. |
-| **Resultado real** | *(Se llena durante la ejecución)* |
-| **Estatus** | *(PASADO / FALLADO)* |
 
 
 ### Escenario C — Ambos campos vacíos
@@ -105,5 +100,3 @@
 | **Pasos** | 1. Abrir la app.<br>2. Dejar ambos campos vacíos.<br>3. Presionar “Iniciar sesión”. |
 | **Datos de prueba** | Correo: -<br>Contraseña: - |
 | **Resultado esperado** | - El sistema no permite el acceso.<br>- Se muestra mensaje: “Campos requeridos”. |
-| **Resultado real** | *(Se llena durante la ejecución)* |
-| **Estatus** | *(PASADO / FALLADO)* |
