@@ -44,14 +44,13 @@ El rol RESIDENTE corresponde a los usuarios que acceden únicamente desde la apl
 | TCN-RES-PAG-001 | Validar visualización de conceptos de pagos asociados al residente       |
 | TCN-RES-PAG-002 | Validar visualización del historial de pagos realizados por el residente       |
 | TCN-RES-PAG-003 | Validar aplicación correcta de filtros de búsqueda          |
-| TCN-RES-PAG-004 | Validar redirección correcta hacia Mercado Pago con los parámetros correctos |
-| TCN-RES-PAG-005 | Validar pago exitoso aprobado por Mercado Pago: registrar pago, mostrar confirmación y actualizar estado |
-| TCN-RES-PAG-006 | Validar pago pendiente: mostrar mensaje adecuado, registrar estado pendiente y no marcar como pagado |
-| TCN-RES-PAG-007 | Validar pago rechazado: mostrar mensaje adecuado, no registrar pago y permitir reintento |
-| TCN-RES-PAG-008 | Validar comportamiento cuando el usuario cancela el pago: retornar a la app sin errores         |
-| TCN-RES-PAG-009 | Validar retorno correcto después del pago (callback/deep link) y redirección al módulo Pagos  |
-| TCN-RES-PAG-010 | Validar manejo de errores cuando Mercado Pago no responde (timeout, error 500, conexión fallida) |
-| TCN-RES-PAG-011 | Validar que no se duplique el pago en caso de doble callback o doble tap                       |
+| TCN-RES-PAG-004 | Validar redirección correcta hacia Mercado Pago |
+| TCN-RES-PAG-005 | Validar pago exitoso aprobado por Mercado Pago |
+| TCN-RES-PAG-006 | Validar manejo de pago pendiente |
+| TCN-RES-PAG-007 | Validar manejo de pago rechazado |
+| TCN-RES-PAG-008 | Validar comportamiento cuando el usuario cancela el pago         |
+| TCN-RES-PAG-009 | Validar manejo de errores cuando Mercado Pago no responde |
+
 
 ---
 
@@ -62,9 +61,10 @@ El rol RESIDENTE corresponde a los usuarios que acceden únicamente desde la apl
 | ID             | Test Condition                                  |
 | -------------- | ----------------------------------------------- |
 | TCN-RES-PQ-001 | Validar registro de nueva PQRSDF                |
+| TCN-RES-PQ-001 | Validar error de registro de nueva PQRSDF por campos vacíos             |
 | TCN-RES-PQ-002 | Validar filtrado por estado, fecha y tipo       |
-| TCN-RES-PQ-003 | Validar visualización de PQRSDF propias         |
-| TCN-RES-PQ-004 | Validar visualización del seguimiento/respuesta |
+| TCN-RES-PQ-003 | Validar visualización del seguimiento/respuesta de PQRSDF |
+
 
 ---
 
