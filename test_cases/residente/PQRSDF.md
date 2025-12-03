@@ -74,7 +74,7 @@
 | **Postcondiciones**   | Ninguna. |
 
 
-## Tabla de Datos Pairwise (32 escenarios)
+## Tabla de Datos
 
 | ID | Tipo        | Texto | Estado    | Anónimo | Fecha |
 |----|------------|-------|-----------|---------|-------|
